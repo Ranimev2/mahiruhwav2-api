@@ -21,7 +21,7 @@ MAHIRUHWAV2 API adalah sebuah API yang menyediakan data terkait manhwa dan manga
 
 API ini dapat diakses melalui URL berikut:
 
-https://kurokami.vercel.app/api/$endpoint
+https://mahiruhwa-api.vercel.app/api/$endpoint
 
 Gantilah `$endpoint` dengan endpoint yang sesuai dari daftar di bawah.
 
@@ -33,7 +33,7 @@ Gantilah `$endpoint` dengan endpoint yang sesuai dari daftar di bawah.
   Mendapatkan daftar manhwa terbaru.
   
   **Contoh:**  
-  `https://kurokami.vercel.app/api/manhwa-new`
+  `https://mahiruhwa-api.vercel.app/api/manhwa-new`
 
 ### 2. Detail Manhwa
 - **GET** `/manhwa-detail/:manhwaId`
@@ -41,7 +41,7 @@ Gantilah `$endpoint` dengan endpoint yang sesuai dari daftar di bawah.
   Mendapatkan detail spesifik dari sebuah manhwa berdasarkan `manhwaId`.
 
   **Contoh:**  
-  `https://kurokami.vercel.app/api/manhwa-detail/the-nano-machine`
+  `https://mahiruhwa-api.vercel.app/api/manhwa-detail/the-nano-machine`
 
 ### 3. Manhwa Populer
 - **GET** `/manhwa-recomendation`
@@ -49,7 +49,7 @@ Gantilah `$endpoint` dengan endpoint yang sesuai dari daftar di bawah.
   Mendapatkan daftar manhwa yang sedang populer.
 
   **Contoh:**  
-  `https://kurokami.vercel.app/api/manhwa-recomendation`
+  `https://mahiruhwa-api.vercel.app/api/manhwa-recomendation`
 
 ### 4. Rekomendasi Manhwa
 - **GET** `/manhwa-recomend`
@@ -57,7 +57,7 @@ Gantilah `$endpoint` dengan endpoint yang sesuai dari daftar di bawah.
   Mendapatkan daftar rekomendasi manhwa.
 
   **Contoh:**  
-  `https://kurokami.vercel.app/api/manhwa-recomend`
+  `https://mahiruhwa-api.vercel.app/api/manhwa-recomend`
 
 ### 5. Manhwa Ongoing
 - **GET** `/manhwa-ongoing`
@@ -65,7 +65,7 @@ Gantilah `$endpoint` dengan endpoint yang sesuai dari daftar di bawah.
   Mendapatkan daftar manhwa yang sedang ongoing.
 
   **Contoh:**  
-  `https://kurokami.vercel.app/api/manhwa-ongoing`
+  `https://mahiruhwa-api.vercel.app/api/manhwa-ongoing`
 
 ### 6. Detail Chapter Manhwa
 - **GET** `/chapter/:chapterId`
@@ -73,7 +73,7 @@ Gantilah `$endpoint` dengan endpoint yang sesuai dari daftar di bawah.
   Mendapatkan detail dari chapter manhwa berdasarkan `chapterId`, termasuk gambar panel manhwa yang bisa dibaca.
 
   **Contoh:**  
-  `https://kurokami.vercel.app/api/chapter/the-nano-machine-chapter-1`
+  `https://mahiruhwa-api.vercel.app/api/chapter/the-nano-machine-chapter-1`
 
 ### 7. List Genre
 - **GET** `/data`
@@ -81,7 +81,7 @@ Gantilah `$endpoint` dengan endpoint yang sesuai dari daftar di bawah.
   Mendapatkan daftar genre manhwa yang tersedia.
 
   **Contoh:**  
-  `https://kurokami.vercel.app/api/data`
+  `https://mahiru-api.vercel.app/api/data`
 
 ### 8. Manhwa Berdasarkan Genre
 - **GET** `/genre/:genreId`
@@ -89,7 +89,7 @@ Gantilah `$endpoint` dengan endpoint yang sesuai dari daftar di bawah.
   Mendapatkan daftar manhwa berdasarkan genre tertentu.
 
   **Contoh:**  
-  `https://kurokami.vercel.app/api/genre/action`
+  `https://mahiruhwa-api.vercel.app/api/genre/action`
 
 ### 9. Pencarian Manhwa
 - **GET** `/search/:searchId`
@@ -97,4 +97,4 @@ Gantilah `$endpoint` dengan endpoint yang sesuai dari daftar di bawah.
   Mendapatkan daftar manhwa berdasarkan kata kunci pencarian.
 
   **Contoh:**  
-  `https://kurokami.vercel.app/api/search/nano%20machine`
+  `https://mahiruhwa-api.vercel.app/api/search/nano%20machine`
